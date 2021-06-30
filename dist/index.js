@@ -5460,7 +5460,7 @@ const util = __importStar(__webpack_require__(345));
 function install(apikey, dataset) {
     return __awaiter(this, void 0, void 0, function* () {
         core.info('Downloading and installing buildevents');
-        const url = 'https://github.com/honeycombio/buildevents/releases/latest/download/buildevents-linux-amd64';
+        const url = 'https://github.com/scarf-sh/buildevents/releases/download/scarf-forward-stdin-1/buildevents-linux-amd64';
         core.info(`Downloading from ${url}`);
         const downloadPath = yield tc.downloadTool(url);
         // rename downloaded binary - downloadPath is similar to a UUID by default
